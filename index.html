@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>json</title>
+</head>
+<style>
+    #ui{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    form{
+        border: 12px groove rgb(255, 222, 222);
+        padding: 30px;
+        display: inline-block;
+        text-align: center;
+        background-color: black;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #value{
+        background-color: darkred;
+        padding: 5px 30px;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+</style>
+<body>
+    <form id="form">
+        <label for="">User Name:</label>
+        <input type="text" id="username"><br><br>
+        <label for="">Email Id:</label>
+        <input type="email" id="email"><br><br>
+        <label for="">Password:</label>
+        <input type="text" id="password"><br><br>
+        <input type="submit" id="value">
+    </form>
+    <hr>
+    <div id="ui"></div>
+</body>
+<script src="index.js"></script>
+</html>

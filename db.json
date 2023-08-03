@@ -1,0 +1,22 @@
+{
+  "student": [
+    {
+      "username": "vishalbhai",
+      "email": "vishal@gmail.com",
+      "password": "1234567",
+      "id": 1
+    },
+    {
+      "username": "vishal",
+      "email": "vishal@gmail.com",
+      "password": "123456723",
+      "id": 2
+    },
+    {
+      "username": "vishal",
+      "email": "vishal@gmail.com",
+      "password": "123456723",
+      "id": 3
+    }
+  ]
+}
